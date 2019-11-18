@@ -1,15 +1,13 @@
 import React from "react";
 import { StyleSheet, Text, View } from "react-native";
-import Navigation from "./src/Navigation";
-import { NavigationContainer } from "@react-navigation/core";
 
-export default function App() {
+const HomeScreen: React.FC = () => {
   return (
-    <NavigationContainer>
-      <Navigation />
-    </NavigationContainer>
+    <View style={styles.container}>
+      <Text>Open up App.tsx to start working on your app!</Text>
+    </View>
   );
-}
+};
 
 const styles = StyleSheet.create({
   container: {
@@ -19,3 +17,5 @@ const styles = StyleSheet.create({
     justifyContent: "center"
   }
 });
+
+export default HomeScreen;
