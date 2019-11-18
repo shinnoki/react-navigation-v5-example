@@ -1,12 +1,12 @@
-import React from "react";
-import { StyleSheet, Text, View } from "react-native";
-import Navigation from "./src/Navigation";
-import { NavigationContainer } from "@react-navigation/core";
+import React from 'react';
+import { StyleSheet, Text, View } from 'react-native';
+import RootNavigation from './src/screens';
+import { NavigationContainer } from '@react-navigation/core';
 
 export default function App() {
   return (
     <NavigationContainer>
-      <Navigation />
+      <RootNavigation />
     </NavigationContainer>
   );
 }
@@ -14,8 +14,8 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#fff",
-    alignItems: "center",
-    justifyContent: "center"
-  }
+    backgroundColor: '#fff',
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
 });

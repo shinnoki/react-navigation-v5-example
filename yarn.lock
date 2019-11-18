@@ -923,6 +923,20 @@
     shortid "^2.2.15"
     use-subscription "^1.3.0"
 
+"@react-navigation/drawer@^5.0.0-alpha.23":
+  version "5.0.0-alpha.23"
+  resolved "https://registry.yarnpkg.com/@react-navigation/drawer/-/drawer-5.0.0-alpha.23.tgz#d4ef70e07b09e51f84b997d63e6885cf56ddedd8"
+  integrity sha512-thPLwXB5WHx8nSaQ2dwdn7QySSpnSTTf1f5XtxQ2YWfOAOycceBRpsre0g9L66ng+TzO97squWbHjSofQsN4nQ==
+  dependencies:
+    "@react-navigation/routers" "^5.0.0-alpha.15"
+
+"@react-navigation/material-top-tabs@^5.0.0-alpha.18":
+  version "5.0.0-alpha.18"
+  resolved "https://registry.yarnpkg.com/@react-navigation/material-top-tabs/-/material-top-tabs-5.0.0-alpha.18.tgz#fb77e6223cdd37b3f13f832a575f9863c51db3f0"
+  integrity sha512-HED+qrCWFucIIFJTeT5vXC2mk/sqSK64ZJf3S1Jsp4a9fHrTcsNC0hZbdgjhdeqla9KRSuxvejN0k8EgIm0Obw==
+  dependencies:
+    "@react-navigation/routers" "^5.0.0-alpha.15"
+
 "@react-navigation/native@^5.0.0-alpha.16":
   version "5.0.0-alpha.16"
   resolved "https://registry.yarnpkg.com/@react-navigation/native/-/native-5.0.0-alpha.16.tgz#3b7e3649514ff2de1ce1ed8cf0723429379f4b48"
@@ -4285,6 +4299,11 @@ react-native-screens@~1.0.0-alpha.23:
   integrity sha512-tOxHGQUN83MTmQB4ghoQkibqOdGiX4JQEmeyEv96MKWO/x8T2PJv84ECUos9hD3blPRQwVwSpAid1PPPhrVEaw==
   dependencies:
     debounce "^1.2.0"
+
+react-native-tab-view@^2.10.2:
+  version "2.10.2"
+  resolved "https://registry.yarnpkg.com/react-native-tab-view/-/react-native-tab-view-2.10.2.tgz#35ae92f574f2220312138f479a99ad3cbf981b6f"
+  integrity sha512-DJMz7WDlQiykgvojaEPM5MKFNMlGC89SMhX++wkD6iJ4TK04NyUgvUKsZYuY7u6k0o0HtG7sNeexFsbxfwhrVg==
 
 react-native-view-shot@2.6.0:
   version "2.6.0"
