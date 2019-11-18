@@ -8,6 +8,8 @@
     "eject": "expo eject"
   },
   "dependencies": {
+    "@react-navigation/core": "^5.0.0-alpha.23",
+    "@react-navigation/native": "^5.0.0-alpha.16",
     "expo": "^35.0.0",
     "react": "16.8.3",
     "react-dom": "16.8.3",
