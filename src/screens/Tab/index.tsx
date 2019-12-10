@@ -19,17 +19,15 @@ const TabNav: React.FC = () => {
     <SafeAreaView style={styles.container}>
       <Tab.Navigator tabBarOptions={{ scrollEnabled: true }}>
         {tabs.map(tab => (
-          <Tab.Screen
-            key={tab}
-            name={tab}
-            component={() => (
+          <Tab.Screen key={tab} name={tab}>
+            {() => (
               <View>
                 <Text>{tab}</Text>
                 <Text onPress={addTab}>Add New Tab</Text>
                 <Text onPress={() => removeTab(tab)}>Remove This Tab</Text>
               </View>
             )}
-          />
+          </Tab.Screen>
         ))}
       </Tab.Navigator>
     </SafeAreaView>

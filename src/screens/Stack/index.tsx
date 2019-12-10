@@ -5,14 +5,14 @@ import NotificationsScreen from './NotificationsScreen';
 import ProfileScreen from './ProfileScreen';
 import SettingsScreen from './SettingsScreen';
 
-const Stack = createStackNavigator();
-
 export type StackParamList = {
   Home: undefined;
   Notifications: undefined;
   Profile: { id: string };
   Settings: undefined;
 };
+
+const Stack = createStackNavigator<StackParamList>();
 
 const StackNav: React.FC = () => {
   return (
